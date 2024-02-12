@@ -2,17 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'
 import PastEvent from './components/PastEvent';
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import './App.css';
 import EventDetailPage from './components/EventDetailsPage';
+import AllEvents from './components/AllEvents';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><PastEvent /></div>,
+    element: <div><AllEvents /></div>,
   },
   
   {
