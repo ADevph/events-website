@@ -10,11 +10,12 @@ import {
 import './App.css';
 import EventDetailPage from './components/EventDetailsPage';
 import AllEvents from './components/AllEvents';
+import Skills from './Pages/Skills';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><AllEvents /></div>,
+    element: <div><Skills /></div>,
   },
   
   {
