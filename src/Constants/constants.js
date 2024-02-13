@@ -1,4 +1,3 @@
-// NewProject/path/to/Constants/constants.js
 
 import data from "../../public/data.json"; // Adjust the path accordingly
 

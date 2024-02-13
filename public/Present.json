@@ -1,77 +1,85 @@
 [
     {
       "id": 1,
-      "title": "AIUB-IQAC participated in 2-day long training on Outcome Based Education",
-      "date": "Monday, 12 February, 2024",
+      "title": "AIUB-IQAC 2-day long training on Outcome Based Education",
+      "date": "Monday, 14 February, 2024",
+      "endDateTime": "2024-02-15T23:59:59",
       "description": "The Institutional Quality Assurance Cell of AIUB has always been striving to ensure and enhance the quality of education through accreditation of undergraduate degrees. In this course, 3 faculty members, Prof Dr. Farheen Hassan (Director, AIUB-IQAC), Nazia Farhana (Assistant Prof. & Assessor, AIUB-IQAC) and Susmita Ghosh (Associate Professor &Assessor, AIUB-IQAC) from AIUB-IQAC participated in 2-day long training program (10-11 February 2024) on Outcome Based Education organized by Board of Accreditation for Engineering and Technical Education (BAETE) of the Institute of Engineers, Bangladesh (IEB) ",
-      "photos": [
-        "https://i.ibb.co/926m6hm/newsaiubiqac1202202403.jpg"
-      ],
+      "photos": ["https://i.ibb.co/926m6hm/newsaiubiqac1202202403.jpg"],
       "key_takeaways": [
         "The whole training program was divided into a total of six sessions which were conducted by esteemed speakers from different reputed universities. The training session provided a comprehensive overview on Necessity of BAETE Accreditation, Curriculum design, Teaching-Learning, Delivery Activities and Assessment, Complex Engineering Problems and Activities, Continuous Quality Improvement and Outcome Based Accreditation. Not only that, but the program also equipped attendees with knowledge of skills to design curriculum and complex engineering problems by the involvement on hands on activities in the interaction session. The insights gained from the session will be instrumental in enhancing the quality and effectiveness of educational programs within the institution."
+      ],
+      "live_updates": [
+        "Live update 1 for event 1",
+        "Live update 2 for event 1"
       ]
     },
     {
       "id": 2,
       "title": "Seminar on “Emerging Research Highlights in Power & Energy”",
-      "date": "Sunday, 11 February, 2024",
-      "description": "The event was inaugurated with a warm welcoming elocution of Prof. Dr. ABM Siddique Hossain, Dean, Faculty of Engineering, AIUB; Advisor, IEEE AIUB Student Branch. He engaged in a comprehensive discussion on global issues pertaining to power and energy, underscoring their significance. Then, the floor was taken by the esteemed speaker of the session Dr. Rabiul Islam, Senior Lecturer, University of Wollongong, Australia. The speaker emphasized the significance of research in advancing knowledge and resolving real-world challenges. He offered practical guidance for aspiring researchers by sharing insights into the recruitment process for research positions in companies. Dr. Islam discussed the rapidly evolving landscape of electric vehicles and urged a focus on fostering the skills of future engineers to cater to the growing demand in this sector. He also highlighted the challenges related to charging electric vehicles and proposed a new concept of universal charging stations. He emphasized the importance of problem-solving in engineering and discussed achieving 100% renewable energy utilization, including grid-connected systems, solar panel planning, offshore winds, wind turbine installation, and direct grid integration. He discussed ocean wave energy, new generators, solar panel costs, economic challenges in renewable energy, and power grid surveillance. He encouraged a research mindset and shared his experiences. In the Q&A session, he enthusiastically answered all the queries. Following the Q&A session, Prof. Dr. Mohammad Abdul Mannan, Associate Dean, Faculty of Engineering, AIUB; Advisor, IEEE AIUB Student Branch, took the floor to share his insights as the concluding remarks of the session where he highlighted the speaker's credentials and discussed potential study opportunities in Australia. Dr. M Abdur Razzak, Professor, Department of EEE, IUB; SMIEEE, Fellow JSPS, Fellow IEB, attended the seminar as the honorable guest. His presence added further prestige to the occasion, while contributing to the intellectual atmosphere of the gathering..",
-      "photos": [
-        "https://i.ibb.co/9GkRrTS/aiubieeeserh24013101.jpg"
-      ],
+      "date": "Sunday, 14 February, 2024",
+      "endDateTime": "2024-02-15T14:00:00",
+      "description": "The event was inaugurated with a warm welcoming elocution of Prof. Dr. ABM Siddique Hossain, Dean, Faculty of Engineering, AIUB; Advisor, IEEE AIUB Student Branch. He engaged in a comprehensive discussion on global issues pertaining to power and energy, underscoring their significance. Then, the floor was taken by the esteemed speaker of the session Dr. Rabiul Islam, Senior Lecturer, University of Wollongong, Australia. The speaker emphasized the significance of research in advancing knowledge and resolving real-world challenges. He offered practical guidance for aspiring researchers by sharing insights into the recruitment process for research positions in companies. Dr. Islam discussed the rapidly evolving landscape of electric vehicles and urged a focus on fostering the skills of future engineers to cater to the growing demand in this sector. He also highlighted the challenges related to charging electric vehicles and proposed a new concept of universal charging stations. He emphasized the importance of problem-solving in engineering and discussed achieving 100% renewable energy utilization, including grid-connected systems, solar panel planning, offshore winds, wind turbine installation, and direct grid integration. He discussed ocean wave energy, new generators, solar panel costs, economic challenges in renewable energy, and power grid surveillance. He encouraged a research mindset and shared his experiences. In the Q&A session, he enthusiastically answered all the queries. Following the Q&A session, Prof. Dr. Mohammad Abdul Mannan, Associate Dean, Faculty of Engineering, AIUB; Advisor, IEEE AIUB Student Branch, took the floor to share his insights as the concluding remarks of the session where he highlighted the speaker's credentials and discussed potential study opportunities in Australia. Dr. M Abdur Razzak, Professor, Department of EEE, IUB; SMIEEE, Fellow JSPS, Fellow IEB, attended the seminar as the honorable guest. His presence added further prestige to the occasion, while contributing to the intellectual atmosphere of the gathering.",
+      "photos": ["https://i.ibb.co/9GkRrTS/aiubieeeserh24013101.jpg"],
       "key_takeaways": [
         "The session began at 2:00 PM and ended at 4:00 PM. A total of 80+ participants attended the webinar. Honorable faculty members Mr. Nafiz Ahmed Chisty, Associate Professor & Department Head, Undergraduate Program; Advisor; IEEE AIUB Student Branch; Mr. Chowdhury Akram Hossain, Department Head, Computer Engineering (CoE),  Special Assistant, Office of Student Affairs (OSA), AIUB; Advisor, IEEE AIUB Student Branch; Dr. Rifat Hazari, Senior Assistant Professor,EEE,; Deputy Director, Dr. Anwarul Abedin Institute of Innovation; Mr. Bishwajit Banik Pathik, Assistant Professor,EEE; Dr. Gour Chand Mazumder, Assistant Professor, EEE; Mr. Tamim Hossain, Lecturer, EEE,; Mr. Md. Shahariar Parvez, Lecturer, CoE, were present among the participants."
+      ],
+      "live_updates": [
+        "Live update 1 for event 1",
+        "Live update 2 for event 1"
       ]
     },
     {
       "id": 3,
       "title": "Celebration of Capstone Project Completion: Fall 2023-24",
-      "date": " Thursday ,25 January, 2024",
-      "description": "On January 25, 2024, AIUB Community of Engineering Students (ACES) organized the “Celebration of Capstone Project Completion” program for the Fall 2023-24 semester, which was supported by the Faculty of Engineering at AIUB. This event took place in the Multipurpose Hall of Building D at American International University-Bangladesh (AIUB). A total of 33 groups presented their capstone projects in front of their respective supervisors, externals, and other faculty members. After the successful completion of the defenses, all groups engaged in the poster competition. The poster presentations were followed by an enchanting cultural program performed by the AIUB Performing Arts Club (APAC). The program was graced by the presence of industrial judges, who evaluated all the posters and provided their valuable insights.Prof. Dr. A. B. M. Siddique Hossain (Professor, Dean, Faculty of Engineering, AIUB) inaugurated the event and congratulated the students on successfully completing the Capstone Projects. Then, all the participants were shown appreciation for their hard work through a wonderful video. Afterward, Prof. Dr. Md. Abdul Mannan (Professor, Associate Dean, Faculty of Engineering, AIUB) and Dr. Md. Saniat Rahman Zishan (Associate Professor, Director, Faculty of Engineering, and AIUB) showed gratitude towards the honorable industrial judges, who evaluated the capstone project posters, by giving them tokens of appreciation from AIUB. The honorable judges who were present during the event are Mr. Mohammad Ahsanuzzaman (Manager, Sales, Akij Biax Films Limited ), Mr. Sangram Das (Assistant Manager, Strategic Product Development Division, Renata Limited), Mr. Tonmoy Chakraborty (Project Director, South Asia Cloud Business, Huawei Technologies), Ms. Setu Saha (Technical Specialist-MWS, Microsoft Bangladesh), Engr. Mustafa Rabiul Hassan (Deputy Manager Electrical & Automation, GPH Ispat Ltd), Mr. MD Riyal Morshad (Senior Service Engineer, MAN Energy Solutions Ltd), Engr. Jahangir Alam (Manager (Technical), DYSIN International Ltd), Mr. Abdullah Al Maruf (Manager, Project Sales, Cross-world Power Limited), Ms. Farzana Afrin Tisha (Head of Cloud Business, Brain Station 23 Ltd), Engr. Md. Zahidul Islam (Senior Electrical Engineer, SAMSUNG C & T), Mr. Md. Rakibul Hassan (HSE Specialist, Chevron Bangladesh). Dr. Md. Abdul Mannan, Dr. Md. Saniat Rahman Zishan , Mr. Nafiz Ahmed Chisty (Associate Professor, Head-In Charge [Undergraduate Program, EEE], Faculty of Engineering, AIUB), Dr. Mohammad Nasir Uddin (Senior Associate Professor, Head [Graduate Program], Faculty of Engineering, AIUB) and Dr. Md. Ehasanul Haque (Senior Assistant Professor, Department Head [IPE], Faculty of Engineering,  AIUB) presented the certificates of acknowledgment to the top three groups in the Poster Competition.  Finally, Dr. Md. Saniat Rahman Zishan announced the names of the three groups who are nominated for the Vice Chancellor’s Award.",
-      "photos": [
-        "https://i.ibb.co/Rg37Bqy/aiubracessc250124001.jpg"
-      ],
-      "key_takeaways": [
-        ""
+      "date": "Thursday, 25 January, 2024",
+      "endDateTime": "2024-01-25T23:59:59",
+      "description": "On January 25, 2024, AIUB Community of Engineering Students (ACES) organized the “Celebration of Capstone Project Completion” program for the Fall 2023-24 semester, which was supported by the Faculty of Engineering at AIUB. This event took place in the Multipurpose Hall of Building D at American International University-Bangladesh (AIUB). A total of 33 groups presented their capstone projects in front of their respective supervisors, externals, and other faculty members. After the successful completion of the defenses, all groups engaged in the poster competition. The poster presentations were followed by an enchanting cultural program performed by the AIUB Performing Arts Club (APAC). The program was graced by the presence of industrial judges, who evaluated all the posters and provided their valuable insights. Prof. Dr. A. B. M. Siddique Hossain (Professor, Dean, Faculty of Engineering, AIUB) inaugurated the event and congratulated the students on successfully completing the Capstone Projects. Then, all the participants were shown appreciation for their hard work through a wonderful video. Afterward, Prof. Dr. Md. Abdul Mannan (Professor, Associate Dean, Faculty of Engineering, AIUB) and Dr. Md. Saniat Rahman Zishan (Associate Professor, Director, Faculty of Engineering, and AIUB) showed gratitude towards the honorable industrial judges, who evaluated the capstone project posters, by giving them tokens of appreciation from AIUB. The honorable judges who were present during the event are Mr. Mohammad Ahsanuzzaman (Manager, Sales, Akij Biax Films Limited ), Mr. Sangram Das (Assistant Manager, Strategic Product Development Division, Renata Limited), Mr. Tonmoy Chakraborty (Project Director, South Asia Cloud Business, Huawei Technologies), Ms. Setu Saha (Technical Specialist-MWS, Microsoft Bangladesh), Engr. Mustafa Rabiul Hassan (Deputy Manager Electrical & Automation, GPH Ispat Ltd), Mr. MD Riyal Morshad (Senior Service Engineer, MAN Energy Solutions Ltd), Engr. Jahangir Alam (Manager (Technical), DYSIN International Ltd), Mr. Abdullah Al Maruf (Manager, Project Sales, Cross-world Power Limited), Ms. Farzana Afrin Tisha (Head of Cloud Business, Brain Station 23 Ltd), Engr. Md. Zahidul Islam (Senior Electrical Engineer, SAMSUNG C & T), Mr. Md. Rakibul Hassan (HSE Specialist, Chevron Bangladesh). Dr. Md. Abdul Mannan, Dr. Md. Saniat Rahman Zishan , Mr. Nafiz Ahmed Chisty (Associate Professor, Head-In Charge [Undergraduate Program, EEE], Faculty of Engineering, AIUB), Dr. Mohammad Nasir Uddin (Senior Associate Professor, Head [Graduate Program], Faculty of Engineering, AIUB) and Dr. Md. Ehasanul Haque (Senior Assistant Professor, Department Head [IPE], Faculty of Engineering,  AIUB) presented the certificates of acknowledgment to the top three groups in the Poster Competition.  Finally, Dr. Md. Saniat Rahman Zishan announced the names of the three groups who are nominated for the Vice Chancellor’s Award.",
+      "photos": ["https://i.ibb.co/Rg37Bqy/aiubracessc250124001.jpg"],
+      "key_takeaways": [""],
+      "live_updates": [
+        "Live update 1 for event 1",
+        "Live update 2 for event 1"
       ]
     },
-    
     {
       "id": 4,
       "title": "Final of 8th Bangladesh Qualifying Rounds of the Philip C. Jessup Int. Law Moot Court held at AIUB",
       "date": "Tuesday, 6 February, 2024",
+      "endDateTime": "2024-02-06T23:59:59",
       "description": "The closing ceremony and the final rounds of the 8th Bangladesh Qualifying Rounds of Philip C Jessup International Moot Court Competition, 2024 was held on Saturday, February 3, 2024, at the Auditorium of the American International University-Bangladesh (AIUB). This year’s qualifying round has experienced the highest number of participations with 32 universities competing directly and 8 universities attending with observer status. The Chief Guest of the closing program, Her Excellence Madam Justice Naima Haider highly appreciated the Jessup Bangladesh for organizing moot court competitions like this and expressed hope that the success stories of participants particularly female participants would continue throughout their professional life as well. The Pro-vice Chancellor of AIUB Prof. Dr. Md. Abdur Rahman, presided over the function. The Competition came to an end with Bangladesh University of Professionals (BUP) emerging as the champion and University of Chittagong as the runners-up. Because of his outstanding performance, Samin Yeasar Islam from Jahangirnagar University was recognized as the ‘Best Mooter’ of the competition. Brac University was awarded 'Best Memorial Award', while Bangabandhu Sheikh Mujibur Rahman Maritime University, Bangladesh was the recipient of the award as the ‘Best New Team’.",
-      "photos": [
-        "https://i.ibb.co/PQq21GC/aiub8thjecl24004.jpg"
-     
-  ],
-      "key_takeaways": [
-        "Mr. Justice Sheikh Hassan Arif, High Court Division, Supreme Court of Bangladesh and Mr. Justice Ruhul Quddus graced the closing event as the special guests. Mr. Christopher Howard, Resident Legal Advisor, OPDAT-US Department of Justice, and Prof. Dr. Taslima Monsoor, Advisor of AIUB Law were also present at the event. Mr. Nuran Chowdhury, Coordinator of ILSA Bangladesh Chapter, and Mr. Washik Muhammod Istiaq Ezaz, National Administrator of Jessup International Law Moot Court 2024-Bangladesh Qualifying Round, also delivered speeches during the closing event."
-      ]
-    },
+      "photos": ["https://i.ibb.co/PQq21GC/aiub8thjecl24004.jpg"],
+      "key_takeaways": ["Mr. Justice Sheikh Hassan Arif, High Court Division, Supreme Court of Bangladesh and Mr. Justice Ruhul Quddus graced the closing event as the special guests. Mr. Christopher Howard, Resident Legal Advisor, OPDAT-US Department of Justice, and Prof. Dr. Taslima Monsoor, Advisor of AIUB Law were also present at the event. Mr. Nuran Chowdhury, Coordinator of ILSA Bangladesh Chapter, and Mr. Washik Muhammod Istiaq Ezaz, National Administrator of Jessup International Law Moot Court 2024-Bangladesh Qualifying Round, also delivered speeches during the closing event."]
+      ,
+      "live_updates": [
+        "Live update 1 for event 1",
+        "Live update 2 for event 1"
+      ]},
     {
       "id": 5,
       "title": "From Novice to Designer: Photoshop & Illustrator Essentials",
       "date": "Wednesday, 31 January, 2024",
+      "endDateTime": "2024-01-31T23:59:59",
       "description": "AIUB Computer Club arranged an online seminar on “From Novice to Designer: Photoshop & Illustrator Essentials” at 8.00PM via Google Meet. The seminar was conducted by Sayeed Hasan, UI/UX Designer, Kolpolok Limited (Former Assistant General Secretary, Design & Decoration, Aiub Computer Club).The seminar aimed to teach the basic tools and techniques of Photoshop and Illustrator. The presenter, Mr. Hasan, began the session by interacting with the audience to understand their interests in design. He then shared his career journey and provided some tips to the beginners. He also gave an overview of the fundamentals of graphic design. He motivated students to set goals and find their desired career path. Mr. Hasan also suggested attendees to design anything and search templates online for inspiration and skill enhancement. However, he advised not to use any free designs from Freepik for final designs, but mentioned those can be used as elements. After an engaging session, he covered the basics of Illustrator, including image quality and the differences between raster and vector images. In the meantime, Abhijit Bhowmik (Associate Professor of CSE at AIUB and Special Assistant, Office of Student Affairs) joined the meeting and gave a small talk on the importance of design and the demand of Product Design, UI/UX design in the current job market. Mr. Hasan then explained how to convert PNGs to vectors and the use of abstract images. Then he discussed the core concepts, like setting print sizes for posters, banners or other works. Moreover, Mr. Hasan shared color theories, which are essential for design and explained the use of RGB for digital and CMYK for print. Lastly, he spoke about font and logo design, two popular fields, and how students can develop and practice effectively. He gave some examples from his own font and logo designs.",
-      "photos": [
-        "https://i.ibb.co/CvnZTLx/novicedesignerphotoshopillustrator-essentials001202409.png"
-       
-      ],
-      "key_takeaways": [
-        
-      ]
-    },
+      "photos": ["https://i.ibb.co/CvnZTLx/novicedesignerphotoshopillustrator-essentials001202409.png"],
+      "key_takeaways": [""]
+      ,
+      "live_updates": [
+        "Live update 1 for event 1",
+        "Live update 2 for event 1",
+        "Live update 2 for event 1"
+      ]},
     {
       "id": 6,
       "title": "The IEEE AIUB SB successfully organized International Student Led-Conference 2023",
-      "date": "Tuesday,30 January, 2024",
+      "date": "Tuesday, 30 January, 2024",
+      "endDateTime": "2024-01-30T23:59:59",
       "description": "IEEE Bangladesh Section, IEEE AIUB Student Branch, and IEEE NSU Student Branch jointly organized the International Student-Led Conference 2023. The conference was held at the Long Beach Hotel in Cox's Bazar, Bangladesh as a co-located conference of the 26th International Conference on Computer and Information Technology (ICCIT) and the 10th International Conference on Power Systems (ICPS) on 13th December 2023. The hybrid conference format allowed participants from all over the world to exchange scientific ideas. It featured seven competitive events titled the Postgraduate Thesis Paper Contest, Postgraduate Research Paper Contest, Undergraduate Research Paper Contest, Undergraduate Thesis Paper Contest, Undergraduate Project Video Contest, Undergraduate Student Activity Video Contest, and IEEE Student Branch Website Contest. The purpose of the competitive events was to encourage innovation, teamwork, and technology for the benefit of humanity. The entries submitted for the competitions were exclusively centered on significant Sustainable Development Goals (SDGs) such as Good Health and Well-being (SDG 3), Affordable and Clean Energy (SDG 7), Responsible Consumption and Production (SDG 12), and Climate Action (SDG 13). The final round of the contests was held virtually on December 28th, 2023, and there was an closing ceremony on December 31st, 2023, on the Zoom meeting platform. The conference played a crucial role in connecting students and professionals, fostering long-term relationships for future collaborations.",
-      "photos": [
-        "https://i.ibb.co/R6B2kMq/ieeeaiubsb3912401.jpg"
-      ],
-      "key_takeaways": [
-       
+      "photos": ["https://i.ibb.co/R6B2kMq/ieeeaiubsb3912401.jpg"],
+      "key_takeaways": [""],
+      "live_updates": [
+        "Live update 1 for event 1",
+        "Live update 2 for event 1"
       ]
     }
   ]

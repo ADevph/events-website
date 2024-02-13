@@ -1,5 +1,5 @@
 import React from 'react';
-import PastEvent from './PastEvent';
+import PastEvent from './PresentEvent';
 
 const AllEvents = () => {
     return (
