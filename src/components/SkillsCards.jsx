@@ -3,7 +3,6 @@ import { skills } from "../Constants/constants";
 import { Link } from 'react-router-dom';
 
 const SkillsCards = () => {
-  // Splitting the skills into two arrays for the two rows
   const firstRowSkills = skills.slice(0, 3);
   const secondRowSkills = skills.slice(3);
 

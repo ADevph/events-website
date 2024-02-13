@@ -19,7 +19,7 @@ import Upcoming from './components/Upcoming';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><Upcoming/></div>,
+    element: <div><PresentEvent /></div>,
   },
   
   {
