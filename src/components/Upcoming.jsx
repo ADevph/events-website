@@ -3,10 +3,26 @@ import { useEffect, useRef, useState } from "react";
 import SectionTitle from "../components/SectionTitle";
 
 const Upcoming = () => {
+    const [eventData, setEventData] = useState([]);
+
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const response = await fetch('/upcoming.json');
+          const data = await response.json();
+          setEventData(data.events);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        }
+      };
+  
+      fetchData();
+    }, []);
+
 
   return (
     <main>
-    <SectionTitle title="Upcoming!" subtitle="Exciting Events" />
+    <SectionTitle title="CS FEST 2024" subtitle="Exciting Upcoming Events" />
     <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
       <div>
         <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
@@ -25,6 +41,29 @@ const Upcoming = () => {
       </div>
       <ShuffleGrid />
     </section>
+
+
+    <section id="eventDetails" className="py-12 px-8 max-w-6xl mx-auto">
+    {Array.isArray(eventData) && eventData.map((event, index) => (
+          <div key={index} className="mb-8">
+            <h2 className="text-3xl font-semibold mb-4">{event.title}</h2>
+            {event.eventDetails.map((detail, detailIndex) => (
+              <div key={detailIndex}>
+                <p><strong>Venue:</strong> {detail.venue}</p>
+                <p><strong>Date:</strong> {detail.date}</p>
+                <p><strong>Time:</strong> {detail.time}</p>
+                <p><strong>Rules & Regulations:</strong> {detail.rulesAndRegulations}</p>
+                <p><strong>Points of Contact:</strong></p>
+                <ul>
+                  {detail.pointsOfContact && detail.pointsOfContact.map((contact, contactIndex) => (
+                    <li key={contactIndex}>Name: {contact.name}, Room: {contact.room}, Email: {contact.email}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        ))}
+      </section>
     </main>
 
   
