@@ -1,9 +1,9 @@
 
-import data from "../../public/data.json"; // Adjust the path accordingly
+import data from "../../public/data.json"; 
 
 
 const skills = data.map((item) => ({
-  id: item.id.toString(), // Convert ID to string if needed
+  id: item.id.toString(), 
   title: item.title,
   photos: item.photos,
 }));

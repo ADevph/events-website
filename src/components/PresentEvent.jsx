@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import SectionTitle from "../components/SectionTitle";
 import RegistrationModal from "../components/RegistrationModal";
-import Swal from 'sweetalert2'; // Import SweetAlert library
+import Swal from 'sweetalert2';
 
 const PresentEvent = () => {
   const [events, setEvents] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,6 +25,7 @@ const PresentEvent = () => {
     fetchData();
   }, []);
 
+
   const handleRegistrationClick = (event) => {
     if (event.endDateTime && new Date(event.endDateTime) < new Date()) {
       // Event has ended, show SweetAlert error
@@ -38,15 +40,33 @@ const PresentEvent = () => {
     }
   };
 
+
+
+  const filteredEvents = events.filter(event => {
+    return event.title.toLowerCase().includes(searchTerm.toLowerCase());
+  });
+
+
   return (
     <div>
       <div className="w-full">
         <SectionTitle title="Events" subtitle="Current" />
+        <input
+          type="text"
+          placeholder="Search events..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="mt-4 mb-4 p-2 bg-sky-50 font-semibold border rounded-lg"
+        />
+      
       </div>
+      {filteredEvents.length === 0 && (
+        <p className="text-center mt-4 text-gray-600 font-bold">Nothing found!</p>
+      )}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {events.map(event => (
-          <div key={event.id} className="bg-white shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-            <Link to={`/events/${event.id}`} className="block h-48 overflow-hidden relative">
+        {filteredEvents.map(event => (
+ <div key={event.id} className="bg-white shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
+ <Link to={`/events/${event.id}`} className="block h-48 overflow-hidden relative">
               {event.photos && event.photos.length > 0 && (
                 <img src={event.photos[0]} alt={event.title} className="object-cover w-full h-full" />
               )}

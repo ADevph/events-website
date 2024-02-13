@@ -35,16 +35,16 @@ const EventDetailPage = () => {
       <h1 className="text-3xl font-semibold mb-4 text-center">{event.title}</h1>
       <p className="text-black font-semibold mb-4 text-center">{event.date}</p>
       <p className="text-gray-800 text-justify">{event.description}</p>
-      <div className='flex justify-center items-center'>
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {event.photos.map((photo, index) => (
-          <img key={index} src={photo} alt={event.title} className="w-full h-64 rounded-lg " />
-        ))}
-      </div>
+      <div className='flex justify-center items-center text-center'>
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {event.photos.map((photo, index) => (
+            <img key={index} src={photo} alt={event.title} className="object-cover w-96 h-64 rounded-lg lg:ml-64 md:ml-2 sm:ml-1" />
+          ))}
+        </div>
       </div>
      
       <div className="mt-8">
-        <h2 className="text-xl font-semibold mb-2">Key Takeaways:</h2>
+        <h2 className="text-xl font-semibold mb-2">Key Notes:</h2>
         <ul className="list-disc list-inside">
           {event.key_takeaways.map((takeaway, index) => (
             <li key={index} className="mb-2">{takeaway}</li>
