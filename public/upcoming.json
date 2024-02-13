@@ -1,0 +1,89 @@
+{
+    "events": [
+      {
+        "title": "Call for Participation",
+        "description": "Dear Students, AIUB CS FEST 2018 will be held from 27 November 2018 to 29 November 2018. There are lot of events where you can participate and show your talent. The events are open for all current AIUB students from all departments.",
+        "registrationLink": "http://csfest.aiubcc.org",
+        "registrationStart": "Open now",
+        "registrationEnds": "22nd November 2018",
+        "eventDetails": [
+          {
+            "title": "Application Showcasing (Mobile/ Web/ Desktop)",
+            "venue": "Annex 3, Class Rooms",
+            "date": "27th November 2018",
+            "time": "09.00 AM to 04.00 PM",
+            "rulesAndRegulations": "Each participant can participate in this event individually or as a team contest (Max 4 members in a team). Apps can be in different forms like Windows/Android/java/C#/Web (Any platform ex: php or asp.net).",
+            "pointsOfContact": [
+              {
+                "name": "a",
+                "role": "Mobile",
+                "room": "42051",
+                "email": "ehtesham@aiub.edu"
+              },
+              {
+                "name": "b",
+                "role": "Mobile",
+                "room": "42113",
+                "email": "fahad.ahmed@aiub.edu"
+              },
+              {
+                "name": "c",
+                "role": "Web",
+                "room": "42088",
+                "email": "ezazul@aiub.edu"
+              },
+              {
+                "name": "d",
+                "role": "Web",
+                "room": "42137",
+                "email": "stany@aiub.edu"
+              },
+              {
+                "name": "e",
+                "role": "Desktop",
+                "room": "42109",
+                "email": "hasib.hasan@aiub.edu"
+              },
+              {
+                "name": "f",
+                "role": "Desktop",
+                "room": "42143",
+                "email": "alamin@aiub.edu"
+              },
+              {
+                "name": "g",
+                "role": "All",
+                "room": "42108",
+                "email": "mohaimen.niloy@aiub.edu"
+              }
+            ]
+          },
+          {
+            "title": "POSTER/ IDEA/ CONCEPT PRESENTATION",
+            "venue": "Annex 3, Class Rooms",
+            "date": "27th November 2018",
+            "time": "09.00 AM to 04.00 PM",
+            "areasOfInterest": "Any published or yet to be published scientific paper directly related to Computer Science. Any ideas on any field of computer science that are not yet put into writings. Humorous concepts portraying any event of AIUB but which must not defame any Faculty/Staff of AIUB. Any sprouting social issues without bias to any political/religious views that can be solved using any method of Computer Science.",
+            "rulesAndRegulations": "Each poster must contain a title of the poster, name & id of each group members. Maximum of 4 members in a group. All contents of the poster should be original. Content that is copyright to someone else should not be in your poster. Poster’s design and content should strongly represent the information that the designers want to convey to the viewers. Any content of the poster should not negatively criticize any social issue or any person.",
+            "pointsOfContact": [
+              {
+                "name": "h",
+                "room": "42092",
+                "email": "m.hasan@aiub.edu"
+              },
+              {
+                "name": "i",
+                "room": "42077",
+                "email": "manzurul@aiub.edu"
+              },
+              {
+                "name": "j",
+                "room": "42081",
+                "email": "arouf@aiub.edu"
+              }
+            ]
+          }        ]
+      }
+    ]
+  }
+  

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css'
 import PastEvent from './components/PresentEvent';
 
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,11 +14,12 @@ import AllEvents from './components/AllEvents';
 import Skills from './Pages/Skills';
 import SkillsCards from './components/SkillsCards';
 import PresentEvent from './components/PresentEvent';
+import Upcoming from './components/Upcoming';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><PresentEvent /></div>,
+    element: <div><Upcoming/></div>,
   },
   
   {
