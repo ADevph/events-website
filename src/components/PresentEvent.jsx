@@ -2,9 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import SectionTitle from "../components/SectionTitle";
+import RegistrationModal from "../components/RegistrationModal";
+import Swal from 'sweetalert2'; // Import SweetAlert library
 
 const PresentEvent = () => {
   const [events, setEvents] = useState([]);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -19,6 +23,20 @@ const PresentEvent = () => {
 
     fetchData();
   }, []);
+
+  const handleRegistrationClick = (event) => {
+    if (event.endDateTime && new Date(event.endDateTime) < new Date()) {
+      // Event has ended, show SweetAlert error
+      Swal.fire({
+        icon: 'error',
+        title: 'Event Ended',
+        text: 'Sorry, the event has ended. Registration is closed.',
+      });
+    } else {
+      setSelectedEvent(event);
+      setShowModal(true);
+    }
+  };
 
   return (
     <div>
@@ -40,35 +58,37 @@ const PresentEvent = () => {
               <h2 className="text-xl font-semibold text-gray-800">{event.title}</h2>
               <p className="text-blue-700 font-semibold">{event.date}</p>
               <div className="mt-2">
-  <p className="text-sm font-semibold">Live Updates:</p>
-  <ol className="list-decimal list-inside">
-    {event.live_updates.map((update, index) => (
-      <li key={index} className="text-sky-600 font-semibold">{update}</li>
-    ))}
-  </ol>
-</div>
-
+                <p className="text-sm font-semibold">Live Updates:</p>
+                <ol className="list-decimal list-inside">
+                  {event.live_updates.map((update, index) => (
+                    <li key={index} className="text-sky-600 font-semibold">{update}</li>
+                  ))}
+                </ol>
+              </div>
               {event.endDateTime && (
                 <div className="mt-2">
                   <p className="text-sm font-semibold">Ends in:</p>
                   <CountdownTimer endDateTime={event.endDateTime} />
                 </div>
               )}
-              {event.registrationLink && event.registrationLink.length > 0 && (
-                <div className="mt-2">
-                  <a href={event.registrationLink[0]} target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 font-semibold hover:underline">Register Here</a>
-                </div>
-              )}
+              <div className="mt-2">
+                <a href="#" className="text-sm text-blue-600 font-semibold hover:underline" onClick={() => handleRegistrationClick(event)}>Register Here</a>
+              </div>
             </div>
           </div>
         ))}
       </div>
+      {showModal && selectedEvent && (
+        <RegistrationModal
+          event={selectedEvent}
+          closeModal={() => setShowModal(false)}
+        />
+      )}
     </div>
   );
 };
 
-const CountdownTimer = ({ endDateTime, liveUpdates }) => {
-  // Calculate remaining time
+const CountdownTimer = ({ endDateTime }) => {
   const calculateTimeLeft = () => {
     const difference = new Date(endDateTime) - new Date();
     let timeLeft = {};
@@ -114,20 +134,8 @@ const CountdownTimer = ({ endDateTime, liveUpdates }) => {
       <div className="mb-2">
         {timerComponents.length ? timerComponents : <span className='font-semibold text-blue-800'>Event ended</span>}
       </div>
-      {liveUpdates && (
-        <div>
-          <p className="text-sm font-semibold">Live Updates:</p>
-          <ul className="list-disc list-inside">
-            {liveUpdates.map((update, index) => (
-              <li key={index}>{update}</li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 };
-
- 
 
 export default PresentEvent;
