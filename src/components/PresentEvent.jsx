@@ -39,10 +39,8 @@ const PresentEvent = () => {
             <div className="p-4">
               <h2 className="text-xl font-semibold text-gray-800">{event.title}</h2>
               <p className="text-blue-700 font-semibold">{event.date}</p>
-              {/* Live Updates Section */}
               <div className="mt-2">
   <p className="text-sm font-semibold">Live Updates:</p>
-  {/* Display live updates with ordered list */}
   <ol className="list-decimal list-inside">
     {event.live_updates.map((update, index) => (
       <li key={index} className="text-sky-600 font-semibold">{update}</li>
@@ -50,15 +48,12 @@ const PresentEvent = () => {
   </ol>
 </div>
 
-              {/* Countdown Timer Section (if applicable) */}
               {event.endDateTime && (
                 <div className="mt-2">
                   <p className="text-sm font-semibold">Ends in:</p>
-                  {/* Add countdown timer component */}
                   <CountdownTimer endDateTime={event.endDateTime} />
                 </div>
               )}
-              {/* Registration Link (if available) */}
               {event.registrationLink && event.registrationLink.length > 0 && (
                 <div className="mt-2">
                   <a href={event.registrationLink[0]} target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 font-semibold hover:underline">Register Here</a>
