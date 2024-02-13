@@ -18,7 +18,6 @@ const RegistrationModal = ({ event, closeModal }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Check if all fields are filled
     if (!formData.aiubId || !formData.name || !formData.reasonToJoin) {
       Swal.fire({
         title: 'Error!',
@@ -28,17 +27,15 @@ const RegistrationModal = ({ event, closeModal }) => {
       return;
     }
 
-    // Your registration submission logic here
     console.log('Registration form submitted:', formData);
 
-    // Show success message
     Swal.fire({
       title: 'Registration successful!',
       text: 'A confirmation mail will go in your account.',
       icon: 'success',
     });
 
-    closeModal(); // Close the modal after successful submission
+    closeModal(); 
   };
 
   return (
