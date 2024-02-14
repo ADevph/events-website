@@ -32,7 +32,7 @@ const EventDetailPage = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-4 border rounded-lg shadow-lg bg-white">
-      <h1 className="text-3xl font-semibold mb-4 text-center">{event.title}</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-center text-blue-600">{event.title}</h1>
       <p className="text-black font-semibold mb-4 text-center">{event.date}</p>
       <p className="text-gray-800 text-justify">{event.description}</p>
       <div className='flex justify-center items-center text-center'>
@@ -44,7 +44,7 @@ const EventDetailPage = () => {
       </div>
      
       <div className="mt-8">
-        <h2 className="text-xl font-semibold mb-2">Key Notes:</h2>
+        <h2 className="text-xl font-semibold mb-2">Key Notes </h2>
         <ul className="list-disc list-inside">
           {event.key_takeaways.map((takeaway, index) => (
             <li key={index} className="mb-2">{takeaway}</li>
